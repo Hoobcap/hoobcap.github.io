@@ -1,0 +1,54 @@
+/* Structure */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(images/pegle-background.jpg);
+}
+#content {
+    background: rgba(245, 125, 44, 0.9);
+    width: 75%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px #dc6412;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+th {
+    background: #f46f14;
+}
+
+td {
+    background: #f57d2c;
+}
+
+/* Typography */
+#main-text {
+    color: black;
+}
+
+h1 {
+    color: #0b2ad9;
+}
+
+
+/* Images */
+#title-image {
+    border: 5px solid #0b2ad9;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#level-image {
+    border: 5px solid #9c4bbf;
+    border-radius: 5px;
+    padding: 2px;
+}
