@@ -1,0 +1,97 @@
+/* Structure */
+#main-header {
+    background-color: palegoldenrod;
+    text-align: center;
+}
+
+.row1 {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.row2 {
+    background-color: #89a4d7;
+}
+
+.row3 {
+    background-color: cornflowerblue;
+}
+
+.footer {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navigation */
+#main-nav ul {
+    padding-left: 0;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 5px;
+    background-color: cornflowerblue;
+    border-bottom: 1px solid palegoldenrod;
+    border: 1px solid palegoldenrod;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Typography */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: palegoldenrod;
+}
+
+h4 {
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin:auto;
+    width: 200px;
+    color: white;
+}
+
+/* Larger Resolutions */
+@media (min-width: 900px) {
+    #main-nav ul, .flex-container{
+        display: flex;
+        justify-content: right;
+        gap: 10px;
+        text-align: center;
+    }
+
+    #main-nav li, .flex-container{
+        flex: 1;
+    }
+
+    #main-content .row1, .row2, .row3 {
+        display:flex;
+        padding-left: 250px;
+        padding-right: 250px;
+        gap: 20px;
+        flex-direction: row;
+        margin-bottom: 5px;
+    }
+    
+    #main-content .row1, .row2, .row3 {
+        flex: 1;
+    }
+
+    #main-content .row1-content, .row3-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main-content .row2-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+}
